@@ -1,0 +1,4 @@
+SELECT count(*) as user_count, country FROM public.users 
+WHERE dob >= '{{dat_bornAfter.selectedDate}}'
+{{sel_gender.selectedOptionValue ? "AND gender = '" + sel_gender.selectedOptionValue + "'" : ""}}
+GROUP BY country

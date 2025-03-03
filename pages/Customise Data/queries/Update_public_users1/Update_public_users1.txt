@@ -1,0 +1,8 @@
+UPDATE public.users SET
+"name"= '{{Form1.data.person_name}}',
+"gender"= '{{Form1.data.gender}}',
+"dob"= '{{Form1.data.dob}}',
+"phone"= '{{Form1.data.phone}}',
+"email"= '{{Form1.data.email}}',
+"country"= '{{Form1.data.country}}'
+WHERE "id"= {{Table1.updatedRow.id}};

@@ -1,0 +1,9 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "name" ilike '%{{Table1.searchText}}%'
+	AND "gender" ilike '{{Select1.selectedOptionValue}}%'
+ORDER BY
+  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}

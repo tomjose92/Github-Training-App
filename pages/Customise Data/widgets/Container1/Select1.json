@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "bottomRowBeforeCollapse": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{\n            {\n              label: Select1.options[0].label,\n              value: Select1.options[0].value\n            }\n          }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{Checkbox1.isChecked}}",
+  "key": "10h3mc9nva",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Select Gender",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "6",
+  "leftColumn": 45,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 42,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{Select_public_users1.run()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
+  "parentId": "6epektk99w",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "serverSideFiltering": false,
+  "sourceData": "{{getGenders.data.map( (obj) =>{ return  {'label': obj.gender, 'value': obj.gender } })}}",
+  "topRow": 0,
+  "topRowBeforeCollapse": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "6zo59jk8nk",
+  "widgetName": "Select1"
+}

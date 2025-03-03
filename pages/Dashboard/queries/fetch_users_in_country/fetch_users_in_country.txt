@@ -1,0 +1,2 @@
+SELECT * from public.users
+WHERE country = {{chart_users.selectedDataPoint?.x || "United States"}}
