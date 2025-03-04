@@ -1,0 +1,13 @@
+name: appsmith-cd  # Workflow name
+
+on:
+  push:
+    branches:
+      - trainer-prod  # Trigger on push to master branch
+
+jobs:
+  deploy-appsmith:
+    runs-on: ubuntu-latest  # Run on Ubuntu
+
+    steps:
+      - run: "curl --location --fail-early --request POST https://training.app.appsmith.com/api/v1/git/deploy/app/67c6d3bf49bf245ac088014b?branchName=trainer-prod --header 'Authorization: Bearer eb4448270468313c48d62978c2b116d3b3d500c4047da88b02beb3ea678f590296d9ec0829ee8eed0a2dcc745ef34d8d5b48cfc93b48bc35943d6d3895c4c7a4ef77fffbb27c0f231424ce0191bd41b3c9d8aab992a1eb6dee41cde9f4399307fb8b9873d7d021af5644a24a66af9eef4c2b98b5b456698b930896ec97fa6bd00ff3d7071d06fc0b2561cc51fb45624210e0be1afcd2218f45b941b8af5f472018b63d94aa7ef93b8126b6dce4bf78f929e6ef2c184474197bbdf1677560b166a9abbdeee2624041fd25bcde97b78b1825d898b5974636ff519b74ac6a731c42'"
