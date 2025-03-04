@@ -3,11 +3,11 @@ name: appsmith-cd  # Workflow name
 on:
   push:
     branches:
-      - trainer-prod  # Trigger on push to master branch
+      - trainer-prod  # Trigger on push to trainer-prod branch
 
 jobs:
   deploy-appsmith:
     runs-on: ubuntu-latest  # Run on Ubuntu
 
     steps:
-      - run: "curl --location --fail-early --request POST https://training.app.appsmith.com/api/v1/git/deploy/app/67c6d3bf49bf245ac088014b?branchName=master --header 'Authorization: Bearer 943981ebd5beb2e30d582485191300463ad4fa048564a7aef435b7a210bec39cbda558e6882915545fdf3986b58568f7a0da343534cf793494e9d5be20c1e17c23fd8cc4e7deb61ce714f34d4aecfdbafc5fc2948e54feff15670f3b609f0449707629c232a48d2609ce9390839611521f5e6daa33fbddb9b5a58b3975d8aadffeaed92c39470a7e6481a2c2f0d9625733be088f58e6ce0971528dc4b4d086553a8e423158e86248e790ae9c1641c7bb88f5adf1acdaeee60b7d4e0d4902577a2cdbd19efa16d92f9e78a4449ae0d3ddf5e46dbde309fb7b959a88aedf122231'"
+      - run: "curl --location --fail-early --request POST https://training.app.appsmith.com/api/v1/git/deploy/app/67c6d3bf49bf245ac088014b?branchName=trainer-prod --header 'Authorization: Bearer 943981ebd5beb2e30d582485191300463ad4fa048564a7aef435b7a210bec39cbda558e6882915545fdf3986b58568f7a0da343534cf793494e9d5be20c1e17c23fd8cc4e7deb61ce714f34d4aecfdbafc5fc2948e54feff15670f3b609f0449707629c232a48d2609ce9390839611521f5e6daa33fbddb9b5a58b3975d8aadffeaed92c39470a7e6481a2c2f0d9625733be088f58e6ce0971528dc4b4d086553a8e423158e86248e790ae9c1641c7bb88f5adf1acdaeee60b7d4e0d4902577a2cdbd19efa16d92f9e78a4449ae0d3ddf5e46dbde309fb7b959a88aedf122231'"
