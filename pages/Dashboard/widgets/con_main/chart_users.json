@@ -3,7 +3,7 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 54,
   "boxShadow": "none",
   "chartData": {
     "po5ewapojv": {
@@ -108,8 +108,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDataPointClick": "{{fetch_users_in_country.run()}}",
-  "originalBottomRow": 48,
-  "originalTopRow": 15,
+  "originalBottomRow": 54,
+  "originalTopRow": 21,
   "parentColumnSpace": 12.32666015625,
   "parentId": "5r11ctbsu9",
   "parentRowSpace": 10,
@@ -126,7 +126,7 @@
     "Display"
   ],
   "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
-  "topRow": 16,
+  "topRow": 21,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "rw9fdina5i",
