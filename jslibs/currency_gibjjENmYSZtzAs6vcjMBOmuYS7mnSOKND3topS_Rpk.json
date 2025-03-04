@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "currency"
+  ],
+  "defs": "{\"!name\":\"LIB/currency\",\"currency\":{\"!type\":\"fn()\",\"prototype\":{\"add\":{\"!type\":\"fn()\",\"prototype\":{}},\"subtract\":{\"!type\":\"fn()\",\"prototype\":{}},\"multiply\":{\"!type\":\"fn()\",\"prototype\":{}},\"divide\":{\"!type\":\"fn()\",\"prototype\":{}},\"distribute\":{\"!type\":\"fn()\",\"prototype\":{}},\"dollars\":{\"!type\":\"fn()\",\"prototype\":{}},\"cents\":{\"!type\":\"fn()\",\"prototype\":{}},\"format\":{\"!type\":\"fn()\",\"prototype\":{}},\"toString\":{\"!type\":\"fn()\",\"prototype\":{}},\"toJSON\":{\"!type\":\"fn()\",\"prototype\":{}}}}}",
+  "name": "currency",
+  "uidString": "currency_https://cdn.jsdelivr.net/npm/currency.js@2.0.4/dist/currency.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/currency.js@2.0.4/dist/currency.min.js",
+  "version": "2.0.4"
+}
