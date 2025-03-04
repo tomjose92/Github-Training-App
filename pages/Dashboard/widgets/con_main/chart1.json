@@ -116,7 +116,7 @@
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "4k1d0c07p1",
-  "widgetName": "chart_users",
+  "widgetName": "chart1",
   "xAxisName": "Country",
   "yAxisName": "Number of Users"
 }

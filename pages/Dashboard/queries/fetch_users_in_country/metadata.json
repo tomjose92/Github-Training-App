@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * from public.users\nWHERE country = {{chart_users.selectedDataPoint?.x || \"United States\"}}",
+      "body": "SELECT * from public.users\nWHERE country = {{chart1.selectedDataPoint?.x || \"United States\"}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
