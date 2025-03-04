@@ -108,8 +108,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onDataPointClick": "{{fetch_users_in_country.run()}}",
-  "originalBottomRow": 48,
-  "originalTopRow": 15,
+  "originalBottomRow": 51,
+  "originalTopRow": 18,
   "parentColumnSpace": 12.32666015625,
   "parentId": "5r11ctbsu9",
   "parentRowSpace": 10,
