@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "fetch_user_stats",
     "name": "fetch_user_stats",
     "pageId": "Dashboard",
