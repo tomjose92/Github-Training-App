@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 20,
   "boxShadow": "none",
   "closeOnSelection": true,
   "dateFormat": "LL",
@@ -69,7 +69,7 @@
     "Inputs"
   ],
   "timePrecision": "minute",
-  "topRow": 9,
+  "topRow": 13,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
   "widgetId": "5narj60vjc",
