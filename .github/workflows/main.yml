@@ -3,7 +3,7 @@ name: appsmith-cd  # Workflow name
 on:
   push:
     branches:
-      - master  # Trigger on push to master branch
+      - trainer-prod  # Trigger on push to master branch
 
 jobs:
   deploy-appsmith:
